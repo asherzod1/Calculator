@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 10px;
+  width: 40%;
+  margin: 0 auto;
+}
+
+.calculator {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.input {
+  width: 100%;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  text-align: right;
+}
+
+.item {
+  width: 23%;
+  border: 1px solid lightgray;
+  cursor: pointer;
+  padding: 10px 20px;
+  margin-bottom: 5px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.item:hover {
+  background-color: #f76400;
+  color: white;
+}
+
+.flex-1 {
+  width: 48.666%;
+}
+
+.teng {
+  color: white;
+  background-color: #f76400;
+  border-radius: 50px;
+}
+
+.amal {
+  color: #f76400;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <input type="text" class="input" disabled>
+            <button class="item amal" onclick="tozalash()">AC</button>
+            <button class="item amal" onclick="ochirish()"><i class="material-icons">backspace</i></button>
+            <button class="item amal" onclick="amal('%')">%</button>
+            <button class="item amal" onclick="amal('/')">/</button>
+            <button class="item" onclick="qiymat(7)"">7</button>
+            <button class="item" onclick="qiymat(8)">8</button>
+            <button class="item" onclick="qiymat(9)">9</button>
+            <button class="item amal" onclick="amal('*')">x</button>
+            <button class="item" onclick="qiymat(4)">4</button>
+            <button class="item" onclick="qiymat(5)">5</button>
+            <button class="item" onclick="qiymat(6)">6</button>
+            <button class="item amal" onclick="amal('-')">-</button>
+            <button class="item" onclick="qiymat(1)">1</button>
+            <button class="item" onclick="qiymat(2)">2</button>
+            <button class="item" onclick="qiymat(3)">3</button>
+            <button class="item amal" onclick="amal('+')">+</button>
+            <button class="item flex-1" onclick="qiymat(0)">0</button>
+            <button class="item" onclick="qiymat('.')" value=".">.</button>
+            <button class="item teng" onclick="hisobla()">=</button>  
+        </div>
+    </div>
+</body>
+<script src="js/main.js"></script>
+</html>
