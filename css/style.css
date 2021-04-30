@@ -11,7 +11,7 @@
 }
 
 .calculator {
-  margin-top: 100px;
+  margin-top: 50px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -31,7 +31,7 @@
   width: 23%;
   border: 1px solid lightgray;
   cursor: pointer;
-  padding: 10px 20px;
+  padding: 10px 0px;
   margin-bottom: 5px;
   font-size: 20px;
   font-weight: 500;
